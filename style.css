@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+
+.container {
+  width: 80%;
+  border: 1px solid lightgray;
+  height: 500px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.left {
+  width: 50%;
+  height: 500px;
+  background-color: red;
+}
+
+.right {
+  width: 50%;
+  background-color: green;
+  height: 500px;
+}
+
+.right video {
+  width: 100%;
+  height: 500px;
+  position: relative !important;
+}

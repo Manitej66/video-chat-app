@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script src="https://cdn.agora.io/sdk/release/AgoraRTCSDK-3.6.1.js"></script>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="title">
+      <h1>video chat app</h1>
+      <p>use this website to make video calls</p>
+    </div>
+
+    <div>
+      <button onclick="muteAudio()">mute</button>
+      <button onclick="unmuteAudio()">unmute</button>
+    </div>
+
+    <div class="container">
+      <div id="local" class="left"></div>
+      <div id="remote" class="right"></div>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
